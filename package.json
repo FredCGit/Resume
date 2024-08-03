@@ -1,7 +1,4 @@
 {
-  "homepage": "https://fredcgit.github.io/Resume/",
-
-
   "name": "resume",
   "private": true,
   "version": "0.0.0",
@@ -29,5 +26,5 @@
     "gh-pages": "^6.1.1",
     "vite": "^5.3.4"
   }
-  
 }
+
