@@ -1,5 +1,7 @@
 {
-  "homepage": "https://<FredCGit>.github.io/<Resume>",
+  "homepage": "https://fredcgit.github.io/Resume/",
+
+
   "name": "resume",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +12,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -27,4 +29,5 @@
     "gh-pages": "^6.1.1",
     "vite": "^5.3.4"
   }
+  
 }
