@@ -1,0 +1,48 @@
+#education {
+  background: #f4f4f4;
+  text-align: center;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.education-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.education-info,
+.faculty-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.school-icon,
+.faculty-image {
+  width: 500px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.education-info h3 {
+  font-size: 1.8em;
+  color: #4caf50;
+  margin-bottom: 10px;
+}
+
+.education-info p {
+  font-size: 1.1em;
+  color: #333;
+  margin: 5px 0;
+}
+
+.faculty-info p {
+  font-size: 1em;
+  color: #666;
+  margin: 5px 0;
+}

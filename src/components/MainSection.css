@@ -1,0 +1,38 @@
+#main-section {
+  background: #f4f4f4;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.main-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.main-content h1 {
+  font-size: 3em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.main-content p {
+  font-size: 1.5em;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.projects-link {
+  display: inline-block;
+  padding: 15px 30px;
+  background: #4caf50;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.projects-link:hover {
+  background-color: #45a049;
+}

@@ -1,0 +1,60 @@
+#skills {
+  background: #fff;
+  padding: 40px 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-me {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-me h2 {
+  font-size: 2em;
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+.about-me p {
+  font-size: 1.2em;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.skills-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skills-container h2 {
+  font-size: 2em;
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.skill {
+  background: #4caf50;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 20px;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 5px;
+  display: inline-block;
+}

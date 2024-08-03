@@ -1,0 +1,75 @@
+.experience-item {
+  margin-bottom: 50px;
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.experience-item h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.5em;
+  color: #4caf50;
+}
+
+.date {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+.project-showcase {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.laptop-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.laptop-image {
+  width: 100%;
+  height: auto;
+}
+
+.website-screenshot {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.project-description {
+  font-size: 1.1em;
+  color: #333;
+  margin: 20px 0;
+}
+
+.project-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 1.1em;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.project-link:hover {
+  background-color: #45a049;
+}
